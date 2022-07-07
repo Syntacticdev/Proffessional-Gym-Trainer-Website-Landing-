@@ -432,7 +432,8 @@ footer ul li {
     width: 100vw;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 20px 5%;
+    margin: 20px 0;
+    gap: 1em;
   }
 
   .program_card {
@@ -477,6 +478,10 @@ footer ul li {
     display: grid;
     grid-template-columns: 30% 15% 15% 30%;
     gap: 2em;
+  }
+
+  .ft_one > div {
+    width: 100%;
   }
   .ft_labels {
     margin-bottom: 20px;

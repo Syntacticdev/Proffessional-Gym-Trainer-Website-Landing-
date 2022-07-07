@@ -379,6 +379,7 @@ footer ul li {
 @media screen and (min-width: 368px) {
   header {
     padding: 20px 50px;
+    width: 100%;
   }
 
   .navigation_container {
@@ -470,10 +471,6 @@ footer ul li {
     margin-right: 20px;
   }
 
-  .side_container {
-    margin: 0 3em;
-  }
-
   .ft_one {
     display: grid;
     grid-template-columns: 30% 15% 15% 30%;
@@ -512,6 +509,10 @@ footer ul li {
 
   .brief {
     display: flex;
+  }
+
+  .copyright {
+    font-size: 15px;
   }
 }
 

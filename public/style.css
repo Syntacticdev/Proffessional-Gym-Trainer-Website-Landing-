@@ -379,7 +379,7 @@ footer ul li {
 @media screen and (min-width: 368px) {
   header {
     padding: 20px 50px;
-    width: 100%;
+    width: 100vw;
   }
 
   .navigation_container {
@@ -448,6 +448,11 @@ footer ul li {
     display: grid;
     grid-template-columns: 60% 40%;
     width: 100%;
+    gap: 1em;
+  }
+
+  .side_container {
+    padding: 0 10px;
   }
 
   .news > div {
@@ -469,6 +474,10 @@ footer ul li {
     height: 100%;
     width: 50%;
     margin-right: 20px;
+  }
+
+  footer {
+    width: 100vw;
   }
 
   .ft_one {

@@ -444,6 +444,7 @@ footer ul li {
   .news {
     display: grid;
     grid-template-columns: 60% 40%;
+    width: 100vw;
   }
 
   .news_card {

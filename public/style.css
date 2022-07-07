@@ -375,7 +375,7 @@ footer ul li {
   letter-spacing: 2px;
 }
 
-@media screen and (min-width: 468px) {
+@media screen and (min-width: 1068px) {
   header {
     padding: 20px 50px;
   }

@@ -374,12 +374,17 @@ footer ul li {
   font-weight: 700;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   letter-spacing: 2px;
+  font-size: 15px;
 }
 
 @media screen and (min-width: 368px) {
   header {
-    padding: 20px 50px;
+    padding: 20px 30px;
     width: 100vw;
+  }
+
+  .text-logo {
+    font-size: 30px;
   }
 
   .navigation_container {

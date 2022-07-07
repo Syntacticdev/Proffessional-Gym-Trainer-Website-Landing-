@@ -429,6 +429,7 @@ footer ul li {
   /* Program */
 
   .program {
+    width: 100vw;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 20px 5%;
@@ -444,7 +445,7 @@ footer ul li {
   .news {
     display: grid;
     grid-template-columns: 60% 40%;
-    width: 100vw;
+    width: 100%;
   }
 
   .news_card {

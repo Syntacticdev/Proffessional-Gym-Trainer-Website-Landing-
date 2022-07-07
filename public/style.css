@@ -448,6 +448,10 @@ footer ul li {
     width: 100%;
   }
 
+  .news > div {
+    width: 100%;
+  }
+
   .news_card {
     height: 170px;
     margin: auto;
